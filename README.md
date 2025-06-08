@@ -1,12 +1,73 @@
-# React + Vite
+# Modern React Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive dashboard built with React and Vite, featuring interactive charts, calendar, data tables, and a kanban board.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 Interactive Charts using React Chart libraries
+- 📅 Calendar Integration
+- 📱 Responsive Design
+- 📊 Data Tables with Sorting and Filtering
+- 📋 Kanban Board for Task Management
+- 🌓 Dark/Light Theme Support
+- 🎨 Tailwind CSS for Styling
+- ⚡ Vite for Fast Development Experience
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18+
+- Vite
+- Tailwind CSS
+- React Router
+- Chart.js (or similar charting library)
+- Date-fns
+- React Icons
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Kumar-Madhurendra/dashboard.git
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The application will start at `http://localhost:5173`
+
+## Project Structure
+
+```
+src/
+├── pages/          # Dashboard pages
+├── components/     # Reusable components
+├── context/        # React Context providers
+├── assets/         # Static assets
+└── styles/         # Global styles
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Vite for the fast development experience
+- Tailwind CSS for the beautiful styling
+- React Icons for the icons
+- All contributors who have helped improve this project
